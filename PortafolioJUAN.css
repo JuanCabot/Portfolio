@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.Barra {
+    max-width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: rgb(100, 100, 248);
+}
+
+.Barra ul li a {
+    text-align: justify;
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+}
+
+.Barra ul {
+    display: flex;
+    list-style: none;
+}
+
+.Barra ul li a:hover {
+    color: black;
+    transition: 0.5s;
+
+}
+
+body {
+    background-image: url(FotoPorta.jpg);
+    max-width: auto;
+    margin: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Principio .contenidoTexto {
+    padding: 20px;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+.inicio .contenido img {
+    display: block;
+    width: 40%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.inicio .contenido {
+    padding: 20px;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.Media .seccionMedia {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 20px;
+}
+
+body table th {
+    width: 1000px;
+    border-collapse: collapse;
+
+
+}
+
+body table td {
+    padding: 0.4rem;
+    text-align: center;
+}
+
+#Contacto {
+    color: black;
+    padding: 25px 25px;
+}
+
+.Contacto .contacto {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.Contacto h2 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacto .fila {
+    display: flex;
+}
+
+.contacto .columna {
+    padding: 10px;
+    position: relative;
+}
+
+.contacto .columna input,
+.contacto .columna textarea {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
